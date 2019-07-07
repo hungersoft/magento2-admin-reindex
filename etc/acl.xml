@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin">
+                <resource id="HS_AdminReindex::hs_indexer" sortOrder="10" title="hs indexer">
+                    <resource id="HS_AdminReindex::indexer_reindex" sortOrder="10" title="Reindex"/>
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>
