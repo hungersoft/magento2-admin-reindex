@@ -12,7 +12,7 @@ Hungersoft's Admin Reindex extension allows you to reindex directly from your Ma
 
 ```sh
 composer config repositories.hs-module-all vcs https://github.com/hungersoft/module-all.git
-composer config repositories.hs-module-admin-reindex vcs https://github.com/hungersoft/module-admin-reindex.git
+composer config repositories.hs-module-admin-reindex vcs https://github.com/hungersoft/magento2-admin-reindex.git
 composer require hs/module-admin-reindex
 
 php bin/magento module:enable HS_All HS_AdminReindex
