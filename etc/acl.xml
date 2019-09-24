@@ -3,8 +3,8 @@
     <acl>
         <resources>
             <resource id="Magento_Backend::admin">
-                <resource id="HS_AdminReindex::hs_indexer" sortOrder="10" title="hs indexer">
-                    <resource id="HS_AdminReindex::indexer_reindex" sortOrder="10" title="Hungersoft admin reindex"/>
+                <resource id="HS_AdminReindex::hs_indexer" sortOrder="10" title="Hungersoft admin re-index">
+                    <resource id="HS_AdminReindex::indexer_reindex" sortOrder="10" title="Re-index"/>
                 </resource>
             </resource>
         </resources>
