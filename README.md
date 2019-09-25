@@ -6,7 +6,7 @@
 Magento 2 does not allow you to reindex from the admin. To reindex when you've set it to update on schedule, you might have to wait for the cron to run or reindex manually using your CLI to run the reindex command.
 This could be very frustrating when you just need to run a quick reindex mostly during testing phase.
 
-Hungersoft's Admin Reindex extension allows you to reindex directly from your Magento admin.
+Hungersoft's [Admin Reindex](https://www.hungersoft.com/p/magento2-admin-reindexer) extension allows you to reindex directly from your Magento admin.
 
 ## Installation
 
